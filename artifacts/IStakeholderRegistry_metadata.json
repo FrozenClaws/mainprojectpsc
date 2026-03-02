@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "role",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "hasRole",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/BatchDistribution.sol": "IStakeholderRegistry"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/BatchDistribution.sol": {
+			"keccak256": "0x817c3433dd878df8983e4db1a0e86ee7899ed7f909ca84f432722e090e95fbed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b412c8621d32a1bad6e5bef66866d0e9cae6ad7c893056fe7fcf113782c04090",
+				"dweb:/ipfs/QmaUULWFjuvWNExbF3ksMgpJrQYz8yyLxCn4TYVR1LNMti"
+			]
+		}
+	},
+	"version": 1
+}
